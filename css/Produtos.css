@@ -1,0 +1,84 @@
+* body{
+    margin: 0;
+    padding: 0;
+}
+
+#Nav{
+    width: 100%;
+    background: red;
+}
+#imagem2{
+    width: 30%;
+}
+h2{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 120px;
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+   color: red;
+   text-align: center;
+}
+
+.Plink{
+    text-align: center;
+    width: 25px;
+    color: white;
+}
+#categorias{
+   margin-right: 40px;
+    float: left;
+}
+
+#pagamentos{
+    text-align: center;
+    width: 35%;
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo{
+    width: 100px;
+    border-radius: 50%
+}
+.estoque{
+    display: inline-block;
+}
+.produto{
+    width: 10%;
+    display: inline-block;
+    margin-left: 200px;
+    text-align: center;
+    padding: 5px;   
+}
+.produto2{
+    display: fixed;
+    display: inline-block;
+    margin-left: 197px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.espacamento{
+    display: fixed;
+    display: inline-block;
+    margin-left: 198px;
+    position: relative;
+   
+    
+}
+.produto1{
+    display: inline-block;
+    margin-left: 200px;
+    text-align: center;
+}
+.texto2{
+    color: red;
+}
+
+
+
+
+

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos Full Stack Eletro</title>
+    <link rel="stylesheet" href="./css/Produtos.css">
+   
+</head>
+<body>
+    <table id="Nav">
+        <tr>
+            <td class="Plink"><a href="index.html"><img id="logo" src="./imagens/home.jpg"></a></td>
+            <td class="Plink"><a class="Plink" href="produtos.html">Nossos Produtos</a></td>
+            <td class="Plink"><a class="Plink" href="loja.html">Nossas Lojas</a></td>
+            <td class="Plink"><a class="Plink" href="contato.html">Nosso Contato</a></td>
+        </tr>
+    </table>
+    <h2>Produtos</h2>
+    <hr>
+        <section class="estoque">
+         <h3>Categorias</h3>                
+            <ul>
+                <li onclick="exibir_todos('todos')">Todos {12}</li>
+                <li onclick="exibir_categorias('geladeira')">Geladeiras {3}</li>
+                <li onclick="exibir_categorias('fogao')">Fogões{2}</li>
+                <li onclick="exibir_categorias('microondas')">Microoncas{3}</li>
+                <li onclick="exibir_categorias('lavadoroupas')">Lavadora de roupas{3}</li>
+                <li onclick="exibir_categorias('lavaloucas')">Lava-Louças{2}</li>
+            </ul>
+        </section>
+
+        <section class="produto">
+            <div class="box_produto " id="geladeira"  style="display: block;">
+                <img src="./imagens/geladeira.jpg" style="width: 120px;" onmouseout="normal(this)" onmousemove="destaque(this)" alt="">
+                <p class="texto1">Geladeira Frot Free Brastemp Side Inverses 540 litros</p>
+                <p class="texto"><s>R$ 6.389,00</s></p>
+                <p class="texto2">R$ 5.019,00</p>
+                <hr>
+            </div>
+        </section>
+
+        <section class="produto">
+            <div class="box_produto " id="geladeira" style="display: block;">
+                <img src="./imagens/geladeira2.webp" style="width: 120px; " onmouseout="normal(this)" onmousemove="destaque(this)" alt="">
+                <p class="texto1">Geladeira Top Freezer 402L</p>
+                <p class="texto"><s>R$ 6.389,00</s></p>
+                <p class="texto2">R$ 5.019,00</p>
+                <hr>
+            </div>
+        </section>
+
+        <section class="produto">
+            <div class="box_produto " id="geladeira" style="display: block;">
+                <img src="./imagens/geladeira3.png"  style="width: 120px;" onmouseout="normal(this)" onmousemove="destaque(this)" alt="">
+                <p class="texto1">Geladeira comum</p>
+                <p class="texto"><s>R$ 6.389,00</s></p>
+                <p class="texto2">R$ 5.019,00</p>
+                <hr>
+            </div>
+        </section>
+
+        <section class="produto">
+            <div class="box_produto" id="fogao" style="display: block;">
+                <img src="./imagens/fogao.jpg" style="width: 120px;" onmouseout="normal(this)"  onmousemove="destaque(this)" alt="">
+                <p class="texto1">Fogão 6 Bocas de Piso Esmaltec Caribe</p>
+                <p class="texto"><s>R$ 6.389,00</s></p>
+                <p class="texto2">R$ 5.019,00</p>
+                <hr>
+            </div>
+        </section>
+
+        <!-- 
+            inicio da seguda linha
+        -->
+        <div class="espacamento"></div>
+        <section class="produto">
+            <div class="box_produto" id="fogao" style="display: block;">
+                <img src="./imagens/fogão2.webp"  style="width: 120px;" onmouseout="normal(this)" onmousemove="destaque(this)" alt="">
+                <p class="texto1">Fogão comum</p>
+                <p class="texto"><s>R$ 6.389,00</s></p>
+                <p class="texto2">R$ 5.019,00</p>
+                <hr>
+            </div>
+        </section>
+
+        <section class="produto">
+            <div class="box_produto" id="microondas" style="display: block;">
+                <img src="./imagens/micro1.webp"  style="width: 120px;" onmouseout="normal(this)" onmousemove="destaque(this)" alt="">
+                <p class="texto1">Micro comum</p>
+                <p class="texto"><s>R$ 6.389,00</s></p>
+                <p class="texto2">R$ 5.019,00</p>
+                <hr>
+            </div>
+        </section>
+
+        <section class="produto">
+            <div class="box_produto" id="microondas" style="display: block;">
+                <img src="./imagens/micro2.jfif" style="width: 120px;" onmouseout="normal(this)" onmousemove="destaque(this)" alt="">
+                <p class="texto1">Micro comum</p>
+                <p class="texto"><s>R$ 6.389,00</s></p>
+                <p class="texto2">R$ 5.019,00</p>
+                <hr>
+            </div>
+        </section>
+
+        <section class="produto">
+            <div class="box_produto" id="microondas" style="display: block;">
+                <img src="./imagens/micro3.webp"  style="width: 120px;" onmouseout="normal(this)" onmousemove="destaque(this)"  alt="">
+                <p class="texto1">Micro ondas comum moderno</p>
+                <p class="texto"><s>R$ 6.389,00</s></p>
+                <p class="texto2">R$ 5.019,00</p>
+                <hr>
+            </div>
+        </section>
+
+        <!-- 
+            Inicio da terceira linha
+        -->
+
+        <div class="espacamento"></div>
+        
+        <section class="produto">
+            <div class="box_produto" id="lavadoroupas" style="display: block;">
+                <img width="120px" src="./imagens/lavadora2.jpg"  style="width: 120px;" onmouseout="normal(this)"  onmousemove="destaque(this)"alt="">
+                <p class="texto1">Maquina comum de lava roupa</p>
+                <p class="texto"><s>R$ 6.389,00</s></p>
+                <p class="texto2">R$ 5.019,00</p>
+                <hr>
+            </div>
+        </section>
+
+        <section class="produto">
+            <div class="box_produto" id="lavadoroupas" style="display: block;">
+                <img width="120px" src="./imagens/lavadora3.png"  style="width: 120px;" onmouseout="normal(this)"  onmousemove="destaque(this)"alt="">
+                <p class="texto1">Maquina de lavar louça</p>
+                <p class="texto"><s>R$ 6.389,00</s></p>
+                <p class="texto2">R$ 5.019,00</p>
+                <hr>
+            </div>
+        </section>
+
+        <section class="produto">
+            <div class="box_produto"   id="lavaloucas" style="display: block;">
+                <img width="120px" src="./imagens/lava2.webp"  style="width: 120px;" onmouseout="normal(this)" onmousemove="destaque(this)" alt="">
+                <p class="texto1">Lava-louça</p>
+                <p class="texto"><s>R$ 6.389,00</s></p>
+                <p class="texto2">R$ 5.019,00</p>
+                <hr>
+            </div>
+        </section>
+
+        <section class="produto">
+            <div class="box_produto" id="lavaloucas" style="display: block;">
+                <img width="120px" src="./imagens/lavar_louca.jpg" style="width: 120px;" onmouseout="normal(this)"  onmousemove="destaque(this)" alt="">
+                <p class="texto1">Lava-louça moderna</p>
+                <p class="texto"><s>R$ 6.389,00</s></p>
+                <p class="texto2">R$ 5.019,00</p>
+                <hr>
+            </div>
+        </section>
+        
+        <footer>
+            <h4>Formas de pagamento</h4>
+            <img id="imagem2" src="./imagens/visa-master.png">
+        </footer>
+        <script src="./JS/index.js"></script>
+</body>
+</html>
+<!--
+    fazer a mudança de texto #Texto e retirar os br 
+-->

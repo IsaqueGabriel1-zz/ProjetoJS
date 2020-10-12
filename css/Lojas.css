@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#Nav{
+    width: 100%;
+    background: red;
+}
+h2{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    color: rgb(82, 23, 23);
+    font-size: 30px;
+}
+img{
+    width: 120px;
+}
+footer{
+    margin-top: 650px;
+}
+#imagem2{
+    width: 120px;
+}
+#contato{
+    margin-left: 15%;
+}
+.Plink{
+    text-align: center;
+    width: 25px;
+    color: white;
+}
+#logo{
+       
+    border-radius: 50%;
+}
+#imgZap{
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 60%;
+   
+
+}
+#imgEmail{
+    width: 70px;
+    border-radius: 50%;
+    float: left;
+}
+#pagamentos{
+    margin-left: 30%;
+    text-align: center;
+    width: 35%;
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#divpai{
+    margin-top: 100px;
+    font-size: 20px;
+}
+#divfilho{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-left: 10%;
+}#divpai2{
+    margin-left: 40%;
+    font-size: 20px;
+}
+#divfilho2{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-left: 10%;
+}
+#divpai3{
+    margin-left: 30%;
+    font-size: 20px;
+}
+#divfilho3{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-left: 40%;
+}
+
